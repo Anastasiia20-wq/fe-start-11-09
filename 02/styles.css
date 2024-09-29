@@ -10,39 +10,26 @@ body {
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
 }
 h1 {
     text-align: center;
     margin-top: 20px;
-    grid-column: span 2;
 }
 .planet {
-    text-align: center;
-    background-color: #f0f0f0;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 40px 0;
+    overflow: auto;
 }
 .planet img {
+    margin-right: 20px;
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    display: block;
-    margin: 0 auto;
 }
 .planet h2 {
     text-align: center;
     margin-top: 10px;
 }
 .planet p {
-    text-align: justify;
+    text-align: left;
     margin-top: 10px;
-}
-@media (max-width: 768px) {
-    .container {
-        grid-template-columns: 1fr;
-    }
 }
